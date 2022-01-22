@@ -15,18 +15,6 @@ customPlugins.add(function(use)
   use { "nathom/filetype.nvim" }
 
   use {
-    "Pocco81/TrueZen.nvim",
-    cmd = {
-      "TZAtaraxis",
-      "TZMinimalist",
-      "TZFocus",
-    },
-    config = function()
-      require('custom.plugins.truezen')
-    end
-  }
-
-  use {
     'simrat39/symbols-outline.nvim',
     config = function()
       require('custom.plugins.symbols')
