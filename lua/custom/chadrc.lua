@@ -46,6 +46,7 @@ M.plugins = {
     nvimtree = {
       ui = {
         auto_resize = true,
+        width = 30,
       },
     },
     statusline = {
@@ -57,16 +58,16 @@ M.plugins = {
     symbols = {
       auto_close = true,
       auto_preview = false,
-      relative_width = true,
+      relative_width = false,
       show_numbers = true,
       show_relative_numbers = true,
-      width = 25,
+      width = 35,
     },
   },
 }
 
 M.ui = {
-   theme = "tomorrow-night",
+   theme = "penokai",
 }
 
 return M

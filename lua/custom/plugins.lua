@@ -29,4 +29,9 @@ customPlugins.add(function(use)
       require"surround".setup({mappings_style = "sandwich"})
     end
   }
+
+  use {
+    'windwp/nvim-projectconfig',
+    config = function() require('nvim-projectconfig').setup() end
+  }
 end)

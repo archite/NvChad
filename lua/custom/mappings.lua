@@ -6,6 +6,10 @@ local map = utils.map
 local maps = config.mappings
 local plugin_maps = maps.plugins
 
+map("n", "<Esc>", ":noh <CR> <C-l>")
+-- map("n", "<Esc>", "<C-l> :noh <CR>")
+-- map("n", "<Esc>", ":mode <CR>")
+
 map("n", maps.misc.close_buffer_win, ":lua require('core.utils').close_buffer() <CR> <C-w>c")
 map("n", maps.misc.force_quit_all, ":qall! <CR>")
 map("n", maps.misc.quit_all, ":qall <CR>")
