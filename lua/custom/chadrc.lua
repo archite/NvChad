@@ -44,6 +44,7 @@ M.plugins = {
       setup_lspconf = "custom.plugins.lspconfig",
     },
     nvimtree = {
+      lazy_load = false,
       ui = {
         auto_resize = true,
         width = 30,
